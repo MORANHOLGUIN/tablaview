@@ -1,6 +1,7 @@
 <img width="731" alt="image" src="https://github.com/user-attachments/assets/03e56072-a097-449e-a676-07d04758021f">
 <img width="769" alt="image" src="https://github.com/user-attachments/assets/f2608a04-12cf-4333-802b-3f6dbd72c445">
 <img width="764" alt="image" src="https://github.com/user-attachments/assets/e1a52a57-9a28-461e-ba21-9688639d6359">
+<img width="719" alt="image" src="https://github.com/user-attachments/assets/37598791-1e7b-4b57-8e88-b463f1fe44d9">
 
 Paquetes y Clases
 JavaFX:
