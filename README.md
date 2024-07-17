@@ -14,30 +14,46 @@ Colecciones de JavaFX:
 
 FXCollections, ObservableList: Utilizados para gestionar y actualizar datos en la interfaz gráfica de JavaFX.
 Componentes del Código
+
 Clase Main
+
 ComboBox:
 Un componente desplegable para seleccionar el año de la temporada.
+
 TableView:
 Una tabla para mostrar los resultados de los constructores con columnas para el nombre del constructor, victorias, puntos totales y posición.
+
 VBox:
 Un contenedor vertical que agrupa el ComboBox y la TableView.
+
 Métodos Importantes
+
 start(Stage primaryStage):
 Método principal de JavaFX para inicializar y mostrar la interfaz gráfica.
+
 getSeasons():
 Método para obtener los años de las temporadas desde el repositorio.
+
 getConstructorResultsByYear(int year):
 Método para obtener los resultados de los constructores para un año específico desde el repositorio.
+
 Modelo
+
 ConstructorResult:
 Una clase modelo para representar los resultados de los constructores con atributos para el nombre, victorias, puntos totales y posición.
+
 Repositorios
+
 ConstructorResultRepository:
 Clase para interactuar con la base de datos y recuperar los resultados de los constructores.
 Método getResultByYear(int year) para ejecutar la consulta SQL y devolver los resultados.
+
 Bases de Datos y SQL
+
 Conexión a PostgreSQL:
+
 jdbcUrl, user, password: Detalles de la conexión a la base de datos.
+
 Consulta SQL:
 Una consulta SQL para obtener los resultados de los constructores por año, utilizando JOIN para combinar tablas y GROUP BY para agrupar los resultados.
 Uso de RANK() para ordenar los constructores por puntos en cada temporada.
